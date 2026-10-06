@@ -1,5 +1,7 @@
 # process-aware-verification-mfg
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23197334.svg)](https://doi.org/10.5281/zenodo.23197334)
+
 Code and data for the paper **"Securing AI-Driven Task Planning for Industrial Robots:
 Process-Aware Verification Against Prompt Injection in Manufacturing Cells"**
 by Andrii Koliada, Volodymyr Tonkonogyi and Liubov Bovnegra
@@ -72,4 +74,5 @@ Code: MIT (`LICENSE`). Result data and figures in `results/`, `results_rq1/` and
 
 ## Citation
 
-See `CITATION.cff`. Please cite the paper once published.
+Archived on Zenodo: https://doi.org/10.5281/zenodo.23197334 (all versions). See `CITATION.cff`.
+Please cite the paper once published.
