@@ -1,0 +1,10 @@
+# private RQ1 material: never commit (payloads, raw logs, keys)
+rq1/inject.py
+rq1/config.yaml
+results_rq1/log.jsonl
+results_rq1/cache.jsonl
+.env
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

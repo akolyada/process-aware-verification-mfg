@@ -1,0 +1,10 @@
+parameter,value
+C2_p_drop_inprocess,0.5
+C3_speed_lo_x_window_max,1.25
+C3_speed_hi_x_safety_max,0.95
+C5_speed_x_window_min,"(0.55, 0.85)"
+C5_feed_x_window_min,"(0.5, 0.8)"
+C6_holds_per_part,"(1, 2)"
+C6_hold_minutes,"(1.0, 4.0)"
+S1_speed_x_safety_max,"(1.05, 1.25)"
+A1_offset_x_window_max,"(0.3, 1.0)"

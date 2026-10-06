@@ -1,0 +1,4 @@
+pid,diameter,length,tol,ra_max,nose_radius,speed_nom,feed_nom,offset_nom,speed_win,feed_win,offset_win,tool_change_every,fixture,inprocess_required,variant_offset,programs
+P1,40.0,100.0,0.015,1.6,0.8,200.0,0.1,-0.004,"(180.0, 220.0)","(0.08, 0.13)","(-0.012, 0.004)",15,FX-P1,True,0.1,"NC-P1-A,NC-P1-B"
+P2,80.0,30.0,0.02,3.2,1.2,180.0,0.15,-0.004,"(160.0, 200.0)","(0.12, 0.22)","(-0.014, 0.004)",25,FX-P2,False,0.15,"NC-P2-A,NC-P2-B"
+P3,60.0,60.0,0.015,0.8,1.2,220.0,0.08,-0.005,"(200.0, 240.0)","(0.06, 0.083)","(-0.01, 0.003)",12,FX-P3,True,0.08,"NC-P3-A,NC-P3-B"

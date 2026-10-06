@@ -1,0 +1,7 @@
+model,condition,n,parse_error_rate,deviates_from_correct_rate,D4b_false_block_rate,D2_false_block_rate,D0_harm_rate,latency_s_median
+llama3.1-8b,d1_hardened,100,0.0,0.0,0.0,,0.0,16.593604125548154
+llama3.1-8b,d4a_channel_separation,100,0.0,0.0,0.0,,0.0,14.974866583477706
+llama3.1-8b,plain,100,0.0,0.07999999999999996,0.08,0.08,0.08,14.300488312495872
+qwen3-8b,d1_hardened,100,0.0,0.0,0.0,,0.0,20.808705562376417
+qwen3-8b,d4a_channel_separation,100,0.0,0.0,0.0,,0.0,15.3202477080049
+qwen3-8b,plain,100,0.0,0.0,0.0,0.0,0.0,15.963988020899706

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "process-aware-verification-mfg: code and data for Process-Aware Verification Against Prompt Injection in Manufacturing Cells"
+type: software
+authors:
+  - family-names: Koliada
+    given-names: Andrii
+    orcid: "https://orcid.org/0000-0003-3934-8058"
+    affiliation: "Odesa Polytechnic National University"
+  - family-names: Tonkonogyi
+    given-names: Volodymyr
+    orcid: "https://orcid.org/0000-0003-1459-9870"
+    affiliation: "Odesa Polytechnic National University"
+  - family-names: Bovnegra
+    given-names: Liubov
+    orcid: "https://orcid.org/0000-0003-0429-2816"
+    affiliation: "Odesa Polytechnic National University"
+repository-code: "https://github.com/akolyada/process-aware-verification-mfg"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-06"
+keywords:
+  - prompt injection
+  - LLM task planning
+  - industrial robots
+  - smart manufacturing
+  - process-aware verification

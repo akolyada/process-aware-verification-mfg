@@ -1,0 +1,46 @@
+{
+  "config": {
+    "models": [
+      {
+        "name": "qwen3-8b",
+        "kind": "openai_compatible",
+        "base_url": "http://localhost:11434/v1",
+        "model": "qwen3:8b",
+        "temperature": 0.0,
+        "no_think": true,
+        "structured_output": "plan"
+      },
+      {
+        "name": "llama3.1-8b",
+        "kind": "openai_compatible",
+        "base_url": "http://localhost:11434/v1",
+        "model": "llama3.1:8b",
+        "temperature": 0.0,
+        "structured_output": "plan"
+      }
+    ],
+    "verifier": {
+      "name": "gemma3-12b",
+      "kind": "openai_compatible",
+      "base_url": "http://localhost:11434/v1",
+      "model": "gemma3:12b",
+      "temperature": 0.0,
+      "structured_output": "decision"
+    },
+    "verifier_conditions": [
+      "plain"
+    ],
+    "n_per_cell": 100,
+    "seed": 424242,
+    "conditions": [
+      "plain",
+      "d1_hardened",
+      "d4a_channel_separation"
+    ]
+  },
+  "ollama_digests": {
+    "qwen3:8b": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "llama3.1:8b": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "gemma3:12b": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a"
+  }
+}

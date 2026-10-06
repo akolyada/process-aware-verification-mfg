@@ -1,0 +1,8 @@
+{
+  "n_per_condition": 300,
+  "n_sensitivity": 100,
+  "profile": "original",
+  "runtime_s": 41.9,
+  "evaluation": "worst-case compromised planner (no LLM in loop)",
+  "status": "parameter set v3, reviewed by the manufacturing co-author (2026-10-03)"
+}
